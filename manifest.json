@@ -2,6 +2,15 @@
   "manifest_version": 3,
   "name": "Pomodoro Timer",
   "version": "1.0.0",
+  "description": "THis is my first Chrome extension.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "My Extension"
+  },
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
   "content_scripts": [
     {
       "js": ["script.js"]
