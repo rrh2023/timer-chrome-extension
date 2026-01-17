@@ -7,15 +7,15 @@
     font-family: "Poppins", sans-serif;
 }
 
-body { 
-    background-color: #1e213f;
+body {
+    background-color: #3f201e;
     color: #d7e0ff;
 }
 
 .container {
     text-align: center;
     width: 100%;
-    padding: 10px 9;
+    padding: 10px 0;
 }
 
 .timer {
@@ -25,10 +25,10 @@ body {
     box-sizing: border-box;
 }
 
-main{
+main {
     width: 25rem;
     height: 25rem;
-    border-radius: 50%;
+    border-radius: 20%;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 2rem;
@@ -39,7 +39,7 @@ h1 {
     margin: 20px auto;
 }
 
-.button-container{
+.button-container {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -55,12 +55,97 @@ h1 {
     position: relative;
     margin: 2.5rem 0;
     text-align: center;
-    border-radius: 50%;
-    background: #151932;
-    box-shadow: 20px 20px 42px #0e2021, -20px -20px 42px #1c2244;
+    border-radius: 20%;
+    background: #321b15;
+    box-shadow: 20px 20px 42px #21150e, -20px -20px 42px #441c1c;
 }
 
-.pomodoro::before{
+.pomodoro::before {
     content: "";
     position: absolute;
+    border: 10px solid rgb(225, 65, 65);
+    border-radius: 30%;
+    width: 22rem;
+    height: 22rem;
+}
+
+.time {
+    font-size: 5rem !important;
+    margin: 20px auto;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #5a2f2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.button.active, .button:hover {
+    background-color: #230602;
+}
+
+.hidden {
+    display: block;
+}
+
+.timer-display {
+    font-size: 5rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+#start, #stop {
+    background-color: #5a2e2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+#stop:hover {
+    background-color: tomato;
+}
+
+#start:hover {
+    background-color: #219a52;
+}
+
+#timer-message {
+    color: white;
+    background-color: tomato;
+    display: none;
+    padding: .5rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+/* Responsiveness */
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .container {
+        transform: scale(0.9)
+    }
+
+    .timer {
+        width: 500px;
+    }
 }
