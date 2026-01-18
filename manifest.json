@@ -2,18 +2,14 @@
   "manifest_version": 3,
   "name": "Pomodoro Timer",
   "version": "1.0.0",
-  "description": "THis is my first Chrome extension.",
+  "description": "A simple Pomodoro timer that helps users focus using timed work sessions and short breaks.",
   "action": {
-    "default_popup": "popup.html",
-    "default_title": "My Extension"
+    "default_popup": "index.html",
+    "default_title": "Pomodoro Timer"
   },
-  "permissions": [
-    "tabs",
-    "scripting"
-  ],
-  "content_scripts": [
-    {
-      "js": ["script.js"]
-    }
-  ]
+  "author": "Roberto Rodas-Herndon",
+  "permissions": ["notifications"],
+  "icons": {
+    "128": "clock.png"
+  }
 }
