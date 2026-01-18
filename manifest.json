@@ -8,7 +8,7 @@
     "default_title": "Pomodoro Timer"
   },
   "author": "Roberto Rodas-Herndon",
-  "permissions": ["notifications"],
+  "permissions": [],
   "icons": {
     "128": "clock.png"
   }
