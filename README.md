@@ -35,4 +35,4 @@ Work in focused sessions and recharge with **5-minute or 10-minute breaks** — 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/rrh2023/pomodoro-timer-extension.git
+   git clone https://github.com/rrh2023/timer-chrome-extension.git
