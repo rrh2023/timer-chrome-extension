@@ -3,6 +3,10 @@
 A simple and lightweight **Pomodoro Timer Chrome Extension** designed to help you stay focused and productive.  
 Work in focused sessions and recharge with **5-minute or 10-minute breaks** — all without leaving your browser.
 
+https://chromewebstore.google.com/detail/pomodoro-timer/lpipajmjclgniladoafkpblbhehkkhml?authuser=0&hl=en
+
+[Chrome Webstore](https://chromewebstore.google.com/detail/pomodoro-timer/lpipajmjclgniladoafkpblbhehkkhml?authuser=0&hl=en)
+
 ---
 
 ## 🚀 Features
@@ -36,3 +40,4 @@ Work in focused sessions and recharge with **5-minute or 10-minute breaks** — 
 1. Clone this repository:
    ```bash
    git clone https://github.com/rrh2023/timer-chrome-extension.git
+
